@@ -1,8 +1,8 @@
-# 🍔 Smart Canteen Food Delivery System
+# Smart Canteen Food Delivery System
 
 A comprehensive Java-based food delivery system with a graphical user interface (GUI), built using Swing and Oracle Database. This system allows customers to place food orders and manage payments, while providing administrators with tools to manage menus, customers, and delivery partners.
 
-## 🎯 Features
+## Features
 
 ### For Customers
 - **User Authentication**: Secure login and signup system
@@ -18,7 +18,7 @@ A comprehensive Java-based food delivery system with a graphical user interface 
 - **Delivery Partner Management**: Manage delivery personnel and their assignments
 - **Order Oversight**: Monitor all orders in the system
 
-## 💻 Technology Stack
+## Technology Stack
 
 - **Language**: Java
 - **GUI Framework**: Java Swing
@@ -26,7 +26,7 @@ A comprehensive Java-based food delivery system with a graphical user interface 
 - **JDBC Driver**: Oracle JDBC Driver
 - **IDE**: Eclipse IDE (recommended)
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 FoodDeliverySystem/
@@ -37,7 +37,7 @@ FoodDeliverySystem/
 └── .project                          # Eclipse project configuration
 ```
 
-## 🏛️ Object-Oriented Concepts Implemented
+## Object-Oriented Concepts Implemented
 
 ### 1. **Encapsulation**
 - `FoodItem` class encapsulates food product data with private attributes and public getters
@@ -52,7 +52,7 @@ FoodDeliverySystem/
 - `DBConnection` class abstracts database connection logic
 - Abstract UI components separated into distinct classes
 
-## 📋 Class Overview
+## Class Overview
 
 | Class | Purpose |
 |-------|---------|
@@ -142,7 +142,7 @@ FoodDeliverySystem/
 
    Or from Eclipse: Right-click the project → Run As → Java Application
 
-## 🎮 Usage Guide
+## Usage Guide
 
 ### Login
 - Start the application to see the login screen
@@ -169,14 +169,14 @@ FoodDeliverySystem/
 2. **Manage Menu**: Add/update food items
 3. **Manage Delivery**: Assign delivery partners to orders
 
-## 🔐 Security Features
+## Security Features
 
 - User authentication with username and password
 - Role-based access control (User vs Admin)
 - Prepared statements to prevent SQL injection
 - Password field masking in login UI
 
-## 📊 Database Schema
+## Database Schema
 
 ### User Table (user2)
 - Stores user credentials and roles
@@ -193,7 +193,7 @@ FoodDeliverySystem/
 ### Delivery Table
 - Manages delivery partner information
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - [ ] Email/SMS notifications for order status
 - [ ] Order tracking with real-time updates
@@ -205,7 +205,7 @@ FoodDeliverySystem/
 - [ ] Inventory management system
 - [ ] Restaurant partner dashboard
 
-## 🐛 Known Issues & Limitations
+## Known Issues & Limitations
 
 - Hard-coded database credentials (use environment variables in production)
 - Order ID and Payment ID generation using timestamp modulo (not guaranteed unique)
